@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>project</title>
+</head>
+<body>
+    <div class="cont">
+        <div class="calc">
+            <div class="inp">
+                <input type="text" id="inp" readonly>
+            </div>
+            <div class="items">
+                <div class="i1" onclick="show(this.innerText)">1</div>
+                <div class="i2" onclick="show(this.innerText)">2</div>
+                <div class="i3" onclick="show(this.innerText)">3</div>
+                <div class="m1" onclick="show(this.innerText)">+</div>
+                <div class="i4" onclick="show(this.innerText)">4</div>
+                <div class="i5" onclick="show(this.innerText)">5</div>
+                <div class="i6" onclick="show(this.innerText)">6</div>
+                <div class="m2" onclick="show(this.innerText)">-</div>
+                <div class="i7" onclick="show(this.innerText)">7</div>
+                <div class="i8" onclick="show(this.innerText)">8</div>
+                <div class="i9" onclick="show(this.innerText)">9</div>
+                <div class="m3" onclick="show(this.innerText)">*</div>
+                <div class="i10" onclick="show(this.innerText)">0</div>
+                <div class="m4" onclick="show(this.innerText)">/</div>
+                <div class="eq" onclick="calc()">=</div>
+                <div class="c" onclick="clearinput()">clear</div>
+            </div>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
